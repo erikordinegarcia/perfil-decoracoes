@@ -1,58 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta
-      name="description"
-      content="Dra Lais Faína - tratamentos estéticos e consulta particular para saúde e bem-estar."
-    />
-    <title>Dra Lais Faína | Consulta Particular</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Belle Âme | Estética Facial Premium</title>
+  <meta name="description" content="Clínica de estética facial premium com protocolos sofisticados e naturais." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand">
+        <span class="brand-main">Belle Âme</span>
+        <span class="brand-sub">estética facial</span>
+      </a>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
 
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a><a href="#procedimentos">Procedimentos</a><a href="#sobre">Sobre</a><a href="#resultados">Resultados</a><a href="#depoimentos">Depoimentos</a><a href="#contato">Contato</a>
+      </nav>
+    </div>
 
-  <body class="homeAesthetic">
-    <main class="aestheticHome">
-      <header class="aestheticTop">
-        <div>
-          <h1 class="logoScript">Dra. Lais Faina</h1>
-          <p class="logoTag">CIRURGIA VASCULAR · ANGIOLOGISTA</p>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Menu mobile">
+      <a href="#inicio">Início</a><a href="#procedimentos">Procedimentos</a><a href="#sobre">Sobre</a><a href="#resultados">Resultados</a><a href="#depoimentos">Depoimentos</a><a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="kicker">Clínica Premium</p>
+          <h1>Beleza refinada com naturalidade</h1>
+          <p class="lead">Protocolos exclusivos para realçar seus traços com sofisticação, leveza e segurança clínica de alto padrão.</p>
+          <a class="btn btn-outline" href="#contato">AGENDAR AVALIAÇÃO</a>
         </div>
+        <div class="hero-media reveal delay-1">
+          <div class="organic-frame">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Especialista em estética facial" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <button class="menuSquare" aria-label="Abrir menu">
-          <span></span><span></span><span></span>
-        </button>
-      </header>
+    <section id="sobre" class="section reveal">
+      <div class="container narrow">
+        <p class="kicker">Sobre a especialista</p>
+        <h2>Cuidado técnico com sensibilidade estética</h2>
+        <p>Atendimento personalizado para mulheres que buscam rejuvenescimento elegante, preservando autenticidade e harmonia facial em cada detalhe.</p>
+      </div>
+    </section>
 
-      <section class="aestheticHero">
-        <img src="img/sobre-nos.png" alt="Dra Lais em atendimento" class="doctorPhoto" />
+    <section id="procedimentos" class="section section-soft">
+      <div class="container">
+        <h2 class="reveal">Procedimentos premium</h2>
+        <div class="cards">
+          <article class="card reveal">Botox</article>
+          <article class="card reveal">Radiesse</article>
+          <article class="card reveal">Ultraformer</article>
+          <article class="card reveal">Lavieen</article>
+          <article class="card reveal">Microagulhamento</article>
+          <article class="card reveal">Preenchimento facial e labial</article>
+        </div>
+      </div>
+    </section>
 
-        <p class="consultLabel">Consulta Particular</p>
-        <h2 class="mainTitle">Tratamento de Varizes e Vasinhos</h2>
-        <span class="titleLine"></span>
+    <section id="resultados" class="section">
+      <div class="container split">
+        <article class="panel reveal"><h3>Antes & Depois</h3><p>Resultados naturais com refinamento dos contornos faciais e viço saudável da pele.</p></article>
+        <article id="depoimentos" class="panel panel-soft reveal delay-1"><h3>Depoimentos</h3><p>“Atendimento impecável e resultado sofisticado. Me senti acolhida e ainda mais confiante.”</p></article>
+      </div>
+    </section>
 
-        <p class="mainText">
-          Trate varizes e vasinhos com métodos eficazes e minimamente invasivos. Agende sua
-          consulta hoje!
-        </p>
+    <section id="contato" class="section">
+      <div class="container cta reveal">
+        <h2>Agende sua experiência premium</h2>
+        <p>Consulta especializada para desenhar o protocolo ideal de rejuvenescimento e harmonização facial.</p>
+        <a class="btn" href="https://wa.me/5500000000000" target="_blank" rel="noopener">QUERO AGENDAR</a>
+      </div>
+    </section>
+  </main>
 
-        <a
-          class="whatsFloat"
-          href="https://wa.me/5511900000000?text=Ol%C3%A1!%20Quero%20agendar%20uma%20consulta."
-          target="_blank"
-          rel="noopener"
-          aria-label="Conversar no WhatsApp"
-          >🟢</a
-        >
-      </section>
-    </main>
-  </body>
+  <footer class="site-footer">BELLE ÂME · ESTÉTICA FACIAL PREMIUM</footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5500000000000" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">✦</a>
+
+  <script src="script.js"></script>
+</body>
 </html>
