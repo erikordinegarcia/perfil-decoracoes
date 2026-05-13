@@ -1,20 +1,20 @@
 :root {
-  --bg: #f8f5ef;
+  --bg: #f3e0e0;
   --surface: #ffffff;
-  --surface-2: #f2eee6;
-  --soft: #f7f3ea;
-  --text: #2f2419;
-  --muted: #7a6b5a;
+  --surface-2: #ead2d2;
+  --soft: #f8ebeb;
+  --text: #4a2f35;
+  --muted: #8f6b72;
   --line: rgba(70, 50, 32, 0.16);
   --shadow: 0 16px 40px rgba(68, 45, 22, 0.12);
   --radius: 18px;
   --radius-lg: 26px;
 
   /* combine com a logo (azul escuro + branco) */
-  --accent: #c78b4a; /* caramelo */
-  --accent-2: #8b5e34; /* marrom */
-  --btn: #9b6a3a; /* marrom CTA */
-  --btnHover: #7f542c;
+  --accent: #c98e93;
+  --accent-2: #b77078;
+  --btn: #be777d;
+  --btnHover: #a96369;
 
   --fontTitle: 'Montserrat', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   --fontBody: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
