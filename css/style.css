@@ -1722,3 +1722,39 @@ button {
   font-size: 30px;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
 }
+
+
+/* Ajustes para manter visual de celular também no desktop */
+@media (min-width: 900px) {
+  .homeAesthetic {
+    display: grid;
+    place-items: center;
+    padding: 28px;
+    background: radial-gradient(circle at 20% 20%, #e8cfd2 0%, #d8b3b8 55%, #c89ca4 100%);
+  }
+
+  .aestheticHome {
+    width: 390px;
+    min-height: 844px;
+    border-radius: 28px;
+    box-shadow:
+      0 30px 70px rgba(62, 31, 38, 0.28),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+  }
+
+  .whatsFloat {
+    position: absolute;
+    right: 18px;
+    bottom: 22px;
+  }
+}
+
+@media (max-width: 420px) {
+  .logoScript {
+    font-size: 30px;
+  }
+
+  .mainTitle {
+    font-size: clamp(38px, 10vw, 48px);
+  }
+}
